@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>The Daily Clarion</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="A newsletter site">
+    <meta name="author" content="Julian Wearden">
+    <link href="../home.css" rel="stylesheet">
+</head>
+<body>
+
+        <form method="POST" action="./register.php">
+            <h3 class="logregText"> Register </h3>
+            <p>
+                <label for="user" id="labelu">Username:</label>
+                <input name="user" id="user" type="text" />
+            </p>
+            <p>
+                <label for="pass1" id="labelp1">Password:</label>
+                <input name="pass1" id="pass1" class="password" type="password" required />
+            </p>
+            <p>
+                <input name="Register" type="submit" onclick="console.log('register');"
+                       value="Register">
+                <input type="reset" value="Clear" />
+            </p>
+        </form>
+
+</body>
+</html>

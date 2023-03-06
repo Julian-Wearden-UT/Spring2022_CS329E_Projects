@@ -1,0 +1,90 @@
+h1{
+    text-align: center;
+}
+
+.container{
+    position: absolute;
+    width: 100%;
+    top: 80px;
+}
+
+.background {
+    display: block;
+    margin: 0 auto;
+    z-index: 0;
+}
+
+.container img {
+    z-index: 2;
+}
+
+.img1 {
+    position: absolute;
+    top: 500px;
+    left: 0px;
+}
+.img2 {
+    position: absolute;
+    top: 500px;
+    left: 0px;
+}
+.img3 {
+    position: absolute;
+    top: 500px;
+    left: 0px;
+}
+.img4 {
+    position: absolute;
+    top: 500px;
+    left: 0px;
+}
+.img5 {
+    position: absolute;
+    top: 500px;
+    left: 0px;
+}
+.img6 {
+    position: absolute;
+    top: 500px;
+    left: 0px;
+}
+.img7 {
+    position: absolute;
+    top: 500px;
+    left: 0px;
+}
+.img8 {
+    position: absolute;
+    top: 500px;
+    left: 0px;
+}
+.img9 {
+    position: absolute;
+    top: 500px;
+    left: 0px;
+}
+.img10 {
+    position: absolute;
+    top: 500px;
+    left: 0px;
+}
+.img11 {
+    position: absolute;
+    top: 500px;
+    left: 0px;
+}
+.img12 {
+    position: absolute;
+    top: 500px;
+    left: 0px;
+}
+
+#puzzle1{
+    visibility: hidden;
+}
+#puzzle2{
+    visibility: hidden;
+}
+#puzzle3{
+    visibility: hidden;
+}

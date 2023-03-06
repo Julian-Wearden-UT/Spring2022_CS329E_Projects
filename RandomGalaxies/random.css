@@ -1,0 +1,49 @@
+body{
+    font-family: "Times New Roman", sans-serif
+}
+
+#container{
+    Position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 640px;
+    padding: 1em;
+    border: 5px solid purple;
+}
+
+h1 {
+    text-align: center;
+    color: darkblue;
+}
+
+#images {
+    float: left;
+}
+#images img{
+    position: absolute;
+}
+
+.img1 {
+    z-index: 0;
+}
+.img2 {
+    z-index: 0;
+}
+.img3 {
+    z-index: 0;
+}
+.img4 {
+    z-index: 0;
+}
+.img5 {
+    z-index: 0;
+}
+.img6 {
+    z-index: 0;
+}
+
+#cap {
+    text-align: center;
+    margin-top: 525px;
+    font-size: 20px;
+}

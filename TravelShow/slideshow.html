@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>Slideshow</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="A slideshow of images">
+    <meta name="author" content="Julian Wearden">
+    <link href="slideshow.css" rel="stylesheet">
+    <script src="slideshow.js"></script>
+</head>
+<body onload = "start_show()">
+
+    <div id="container">
+    <h1>Travel Show</h1>
+
+    <div id="slides">
+        <img id = "img1" src="./img/agra_fort.jpg" alt = "agra fort">
+        <img id = "img2" src="./img/ajanta_ellora.jpeg" alt = "ajanta ellora">
+        <img id = "img3" src="./img/akshardham_temple.jpg" alt = "akshardham temple">
+        <img id = "img4" src="./img/gateway_of_india.jpg" alt = "gateway of india">
+        <img id = "img5" src="./img/hawa_mahal.jpeg" alt = "hawa mahal">
+        <img id = "img6" src="./img/mehrangarh_fort.jpg" alt = "mehrangarg fort">
+        <img id = "img7" src="./img/mysore_palace.jpeg" alt = "mysore palace">
+        <img id = "img8" src="./img/qutub_minar.jpg" alt = "gutub minar">
+        <img id = "img9" src="./img/sun_temple.jpg" alt = "sun temple">
+        <img id = "img10" src="./img/taj_mahal.jpeg" alt = "taj mahal">
+        <img id = "img11" src="./img/victoria_memorial.jpg" alt = "victoria memorial">
+    </div>
+    
+    <form method = "POST">
+        <input class = "start" type = "button" value = "Start" onclick = "start_show()">
+        <input class = "end" type= "button" value = "End" onclick = "stop_show()">
+    </form>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Feedback Form</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Campus Visit Feedback Form">
+    <meta name="author" content="Julian Wearden">
+    <link rel="stylesheet" href="UTForm.css">
+</head>
+<body>
+
+    <h1>UT Campus Visit Feedback Form</h1>
+    <hr>
+
+    <form method = "POST">
+        <!--Personal Info-->
+        <p><span class="star">* Fields are Required</span></p>
+        <table>
+        <tr>
+            <td>Name<span class="star">*</span>:</td>
+            <td colspan="5"><label><input type="text" name ="name" size = "30" required></label></td>
+        </tr>
+        <tr>
+            <td>E-Mail<span class="star">*</span>:</td>
+            <td colspan="5"><label><input type="email" name ="email" size="30" required></label></td>
+        </tr>
+
+
+        <!--Address-->
+        <tr>
+            <td>Address 1<span class="star">*</span>:</td>
+            <td colspan="5"> <label><input type="text" name ="address1" size="60" required></label></td>
+        </tr>
+        <tr>
+            <td>Address 2:</td>
+            <td colspan="5"> <label><input type="text" name ="address2" size="60"></label></td>
+        </tr>
+
+        <tr>
+            <td>City<span class="star">*</span>: </td>
+            <td><label><input type="text" name ="city" size="30" required /></label></td>
+        </tr>
+        <tr>
+            <td>State<span class="star">*</span>: </td>
+            <td><label><input type="text" name ="state" size="30" required /></label></td>
+        </tr>
+        <tr>
+            <td>Zip Code<span class="star">*</span>: </td>
+            <td><label><input type="text" name ="zip" size="30" required /></label></td>
+        </tr>
+
+        </table>
+
+        <!--Attraction-->
+        <table>
+        <tr>
+            <td><b><br>Things you liked most about the campus:</b></td>
+        </tr>
+        <tr><td><label> <input name = "attraction[]" type = "checkbox" value = "students" /> Students </label></td></tr>
+        <tr><td><label> <input name = "attraction[]" type = "checkbox" value = "location" /> Location </label></td></tr>
+        <tr><td><label> <input name = "attraction[]" type = "checkbox" value = "campus" /> Campus </label></td></tr>
+        <tr><td><label> <input name = "attraction[]" type = "checkbox" value = "courses" /> Courses Offered </label></td></tr>
+        <tr><td><label> <input name = "attraction[]" type = "checkbox" value = "housing" /> Housing </label></td></tr>
+        <tr><td><label> <input name = "attraction[]" type = "checkbox" value = "sports"> Sports </label></td></tr>
+        </table>
+
+        <!--Interest-->
+        <table>
+            <tr>
+                <td><b><br>How did you become interested in our university?</b></td>
+            </tr>
+            <tr><td><label> <input name = "interest" type = "radio" value = "family"> Family </label></td></tr>
+            <tr><td><label> <input name = "interest" type = "radio" value = "family"> Television </label></td></tr>
+            <tr><td><label> <input name = "interest" type = "radio" value = "internet"> Internet </label></td></tr>
+            <tr><td><label> <input name = "interest" type = "radio" value = "other"> Other: </label><label><input name = "otherinterest" type = "text" size = "10"> </label></td></tr>
+        </table>
+
+        <!--Department-->
+        <table>
+            <tr>
+                <td><b><br>Which department did you visit?</b></td>
+            </tr>
+        <tr><td><label>
+            <select name = "department">
+                <option selected = "selected" disabled>Choose</option>
+                <option>School of Architecture</option>
+                <option>McCombs School of Business</option>
+                <option>Moody College of Communication</option>
+                <option>College of Education</option>
+                <option>Cockrell School of Engineering</option>
+                <option>College of Fine Arts</option>
+                <option>Jackson School of Geosciences</option>
+                <option>School of Information</option>
+                <option>College of Liberal Arts</option>
+                <option>College of Natural Sciences</option>
+                <option>School of Nursing</option>
+                <option>College of Pharmacy</option>
+                <option>Steve Hicks School of Social Work</option>
+                <option>Other</option>
+            </select>
+            </label></td></tr>
+        </table>
+
+        <!--Additional Comments-->
+        <table>
+            <tr>
+            <td><label> <br><b>Additional Comments:</b><br>
+                <textarea name = "comments" rows = "5" cols = "80" placeholder="Enter your comments here:"></textarea>
+            </label></td>
+            </tr>
+        </table>
+
+        <!--Submit Clear-->
+            <input class = "submit" type = "submit" value = "Submit">
+            <input class = "clear" type= "reset" value = "Clear">
+
+
+
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,144 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin:0;
+    font-family: "Times New Roman", sans-serif;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding-bottom: 0;
+    align-items: center;
+}
+header h1{
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 50px;
+    margin-top: 5px;
+
+}
+header h6{
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+
+#navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:  #B22234;
+    font-size: 20px;
+    font-family: "Roboto Thin", sans-serif;
+    border-bottom: 5px solid #ffd700;
+    border-top: 5px solid #0057b7;
+}
+#navigation li {
+    float: left;
+    border-right: 1px solid gray;
+}
+#navigation li a:hover {
+    background-color: #3C3B6E;
+}
+#navigation li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+#leftnav {
+    float: left;
+    width: 70%;
+    margin: 0;
+    padding-left: 1em;
+    border-right: 3px solid gray;
+}
+#leftnav #breaking figure{
+    float: right;
+    width: 30%;
+    margin: 0;
+    padding-right: 1em;
+}
+#leftnav #breaking figure img{
+    width: 100%;
+}
+#leftnav #breaking figure figcaption{
+    font-size: 12px;
+    color: gray;
+}
+#leftnav #breaking h2{
+    float: left;
+    width: 60%;
+    font-size: 28px;
+}
+#leftnav #breaking h1{
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-decoration: underline overline;
+    text-underline-offset: 3px;
+    font-size: 40px;
+}
+
+#leftnav .sub{
+    display: inline-block;
+    border-top: 1px solid gray;
+    border-top: double;
+    margin-top: 20px;
+}
+#leftnav .sub h3{
+    font-size: 20px;
+}
+#leftnav .sub figure{
+    display: inline-block;
+    width: 20%;
+    align-content: center;
+    float: left;
+}
+#leftnav .sub img{
+    object-fit: cover;
+    width: 100%;
+}
+
+
+#rightnav {
+    float: right;
+    width: 26%;
+    margin: 0;
+}
+#rightnav figure{
+    display: inline-block;
+    float: left;
+}
+#rightnav figure img{
+    width:100%;
+}
+
+footer{
+    font-size: 11px;
+    text-align: center;
+    color: gray;
+    line-height: 5px;
+    margin-top: auto;
+    display: inline-block;
+    bottom:0;
+    left:0;
+    width: 100%;
+}
+footer a{
+    text-decoration: none;
+    color: gray;
+}
+footer a:hover{
+    text-decoration: underline;
+    color: blue;
+}

@@ -1,0 +1,119 @@
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+#personal{
+    text-align: center;
+    line-height: 5px;
+}
+
+#personal img{
+    object-fit: cover;
+    width: 500px;
+    height: 500px;
+    border-radius:50%;
+}
+
+#personal h2{
+    font-family: monospace;
+    font-variant: small-caps;
+    font-size: 35px;
+}
+
+
+
+.bubble{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    text-align: center;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    margin: 100px;
+}
+
+.bubble:hover .content{
+    display: inline;
+}
+
+.bubble:hover .title{
+    display: none;
+}
+
+.bubble .title h3{
+    padding-top: 125px;
+    font-size: 40px;
+}
+
+.bubble .content{
+    padding-top: 100px;
+    font-size: 16px;
+    display: none;
+}
+
+.bubble .content .topcontent{
+    padding-top: 100px;
+}
+
+.bubble .content #university{
+    font-size: 20px;
+}
+
+.bubble .content .minor{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+#bubble1 {
+    background-color: #ffc09f;
+}
+
+#bubble2 {
+    background-color: #ffee93;
+}
+
+#bubble3 {
+    background-color: #fcf5c7;
+}
+#bubble3 .title h3{
+    padding-top: 115px;
+}
+
+#bubble4 {
+    background-color: #a0ced9;
+}
+#bubble4 .content{
+    line-height: 8px;
+}
+
+#bubble5 {
+    background-color: #adf7b6;
+}
+#bubble5 .content {
+    font-size: 14px;
+}
+
+
+
+footer{
+    font-size: 11px;
+    text-align: center;
+    color: gray;
+    line-height: 5px;
+}
+
+footer a{
+    text-decoration: none;
+    color: gray;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: blue;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+   <title>Mortgage Calculator</title>
+   <meta charset="UTF-8">
+   <meta name="description" content="A website that calculates mortgage">
+   <meta name="author" content="Julian Wearden">
+    <link rel="stylesheet" href="calculator.css">
+    <script src="calculator.js"></script>
+</head> 
+
+<body>
+
+<h1>Mortgage Calculator</h1>
+<hr>
+
+    <form method = "POST" id="calculator">
+    <!--Personal Info-->
+    <p><span class="star">* Fields are Required</span></p>
+    <table>
+        <tr>
+            <td>Principal Amount<span class="star">*</span>:</td>
+            <td><label><input type="text" id ="pa" name ="pa" size = "30" required></label></td>
+        </tr>
+        <tr>
+            <td>Yearly Interest Rate<span class="star">*</span>:</td>
+            <td><label><input type="text" id="ir" name ="ir" size="30" required></label></td>
+        </tr>
+        <tr>
+            <td>Loan Term (in Months)<span class="star">*</span>: </td>
+            <td><label><input type="text" id="term" name ="term" size="30" required /></label></td>
+        </tr>
+    </table>
+
+
+    <!--Submit Clear-->
+    <input class = "submit" type = "button" value = "Calculate" onclick="calculate()">
+    <input class = "clear" type= "reset" value = "Clear">
+
+    <div class="result">
+        <h2>Monthly Mortgage Payment: </h2>
+        <h3 id = mortgage></h3>
+    </div>
+    <div class="result">
+        <h2>Sum of All Payments: </h2>
+        <h3 id = sum></h3>
+    </div>
+    <div class="result">
+        <h2>Total Paid in Interest: </h2>
+        <h3 id = total></h3>
+    </div>
+
+</form>
+
+
+</body>
+</html>

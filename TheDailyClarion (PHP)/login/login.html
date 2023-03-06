@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta name="description" content="Register or Login for Shop512">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register or Login</title>
+</head>
+
+
+<body>
+    <form method="POST" action="./login.php">
+        <h3 class="logregText"> Login </h3>
+        <p>
+            <label for="loginUser" id="loginLabelu">Username:</label>
+            <input name="loginUser" id="loginUser" type="text" />
+        </p>
+        <p>
+            <label for="loginPass" id="loginLabelp">Password:</label>
+            <input name="loginPass" id="loginPass" class="password" type="password" required />
+        </p>
+        <p>
+            <input name="Login" type="submit" value="Login">
+            <input type="reset" value="Clear" />
+        </p>
+        <p>Don't have a login? <a href="register.html">Register here</a></p>
+    </form>
+
+
+</body>
+</html>

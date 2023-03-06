@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+   <title>Login</title>
+   <meta charset="UTF-8">
+   <meta name="description" content="A login page that validates input">
+   <meta name="author" content="Julian Wearden">
+    <link rel="stylesheet" href="login.css">
+    <script src="login.js"></script>
+</head> 
+
+<body>
+
+<h1>Register an Account</h1>
+<hr>
+
+    <form method = "POST" id="login">
+    <!--Personal Info-->
+    <p><span class="star">* Fields are Required</span></p>
+    <table>
+        <tr>
+            <td>Username<span class="star">*</span>:</td>
+            <td><label><input type="text" id ="un" name ="un" size = "30" required></label></td>
+        </tr>
+        <tr>
+            <td>Password<span class="star">*</span>:</td>
+            <td><label><input type="password" id="pwd" name ="pwd" size="30" required></label></td>
+        </tr>
+        <tr>
+            <td>Repeat Password<span class="star">*</span>: </td>
+            <td><label><input type="password" id="rpwd" name ="rpwd" size="30" required /></label></td>
+        </tr>
+    </table>
+
+
+    <!--Submit Clear-->
+    <input class = "register" type = "button" value = "Register" onclick = "validate()">
+    <input class = "clear" type= "reset" value = "Clear">
+
+
+</form>
+
+
+</body>
+</html>

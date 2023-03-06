@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta name="description" content="Insert Student Record">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insert Student Record</title>
+    <link rel="stylesheet" href="./records.css">
+    <script src="validate.js"></script>
+
+</head>
+
+
+<body>
+    <form method="POST" action="./insert.php" id="form">
+        <p>
+            <label for="idField" id="idLabel">ID:</label>
+            <input class="info" name="idField" id="id" type="text" />
+        </p>
+        <p>
+            <label for="lastField" id="lastLabel">LAST:</label>
+            <input class="info" name="lastField" id="last" type="text" />
+        </p>
+        <p>
+            <label for="firstField" id="firstLabel">FIRST:</label>
+            <input class="info" name="firstField" id="first" type="text" />
+        </p>
+        <p>
+            <label for="majorField" id="majorLabel">MAJOR:</label>
+            <input class="info" name="majorField" id="major" type="text" />
+        </p>
+        <p>
+            <label for="gpaField" id="gpaLabel">GPA:</label>
+            <input class="info" name="gpaField" id="gpa" type="text" />
+        </p>
+        <p>
+            <input name = "Submit" id="validate" class = "validate" type = "button" value = "Submit" onclick="validateInsert()">
+        </p>
+    </form>
+
+</body>
+</html>

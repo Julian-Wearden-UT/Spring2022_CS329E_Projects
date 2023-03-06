@@ -1,0 +1,17 @@
+//The commands put into MySQL server
+
+CREATE TABLE STUDENTS (
+   ID		INT,
+   LAST		VARCHAR(50),
+   FIRST	VARCHAR(50),
+   MAJOR	VARCHAR(50),
+   GPA		FLOAT,
+   PRIMARY KEY (ID)
+);
+   
+INSERT INTO STUDENTS VALUES
+   (3512, "Garcia", "Jose", "English", 3.29),
+   (7617, "Zhang", "Amy", "Chemistry", 2.87),
+   (5329, "Gupta", "Avi", "Economics", 3.08),
+   (4926, "Schwarz", "Ptolemy", "Astronomy", 2.59),
+   (1592, "Garcia", "Amy", "History", 3.43);
