@@ -44,11 +44,13 @@ An update to TheDailyClarion project that uses PHP and cookies to make sure the 
 ### LoginQuiz
 A full quiz that uses cookies to ensure user logs in and hasn't taken the quiz before. The quiz also does all grade checking through a seperate PHP script "on the backend" so the user can't simply inspect elements to find answers.
 
-
 ### StudentRecords (MySQL)
 A site that helps the user interface with a MySQL database to Insert, Update, Delete, and View student records.
+
+### CS329E Elements of Web Programming Final Project
+If you would like to see the final project that was completed throughout this course, you can find the repository <a href="https://github.com/Julian-Wearden-UT/Spring2022_CS329E_Website">here.</a>
 
 
 ##
 ###### This project was completed at UT Austin in the Spring of 2022 by: 
-###### <a href="mailto:julianwearden@utexas.edu">Julian Wearden
+###### <a href="mailto:julianwearden@utexas.edu">Julian Wearden</a>
